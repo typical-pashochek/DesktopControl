@@ -1,7 +1,10 @@
 #ifndef CONTROLLER_H
 #define CONTROLLER_H
 
-#include "remoteevent.h"
+#include "../RemoteEvent/remoteevent.h"
+#include "../NetworkApi/networkapi.h"
+#include "../Socket/socket.h"
+
 #include <QObject>
 #include <QWidget>
 #include <QMetaObject>

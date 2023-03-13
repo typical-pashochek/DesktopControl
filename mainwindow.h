@@ -17,10 +17,10 @@
 #include <QUdpSocket>
 
 #include <QImage>
-#include "controller.h"
-#include "controlled.h"
-#include "clickablelabel.h"
-#include "networkapi.h"
+#include "Controller/controller.h"
+#include "Controlled/controlled.h"
+#include "ClickableLabel/clickablelabel.h"
+#include "NetworkApi/networkapi.h"
 
 using namespace std;
 

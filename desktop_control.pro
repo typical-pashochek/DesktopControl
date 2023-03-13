@@ -9,27 +9,27 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    clickablelabel.cpp \
-    controlled.cpp \
-    controller.cpp \
+    ClickableLabel/clickablelabel.cpp \
+    Controlled/controlled.cpp \
+    Controller/controller.cpp \
+    NetworkApi/networkapi.cpp \
+    Protocol/protocol.cpp \
+    Socket/socket.cpp \
+    SystemApi/systemapi.cpp \
     main.cpp \
     mainwindow.cpp \
-    networkapi.cpp \
-    protocol.cpp \
-    socket.cpp \
-    systemapi.cpp
 
 HEADERS += \
-    clickablelabel.h \
-    controlled.h \
-    controller.h \
-    dxgimanager.h \
-    mainwindow.h \
-    networkapi.h \
-    protocol.h \
-    remoteevent.h \
-    socket.h \
-    systemapi.h
+    ClickableLabel/clickablelabel.h \
+    Controlled/controlled.h \
+    Controller/controller.h \
+    DXGIManager/dxgimanager.h \
+    NetworkApi/networkapi.h \
+    Protocol/protocol.h \
+    RemoteEvent/remoteevent.h \
+    Socket/socket.h \
+    SystemApi/systemapi.h\
+    mainwindow.h
 
 FORMS += \
     mainwindow.ui
@@ -37,7 +37,7 @@ FORMS += \
 win32{
     QT += winextras
     LIBS += -lGdi32
-    SOURCES += dxgimanager.cpp
+    SOURCES += DXGIManager/dxgimanager.cpp
     LIBS += -lD3D11 -lDXGI
     INCLUDEPATH += D:\open\opencv\build\include
     LIBS += D:\open\build\bin\libopencv_core460.dll

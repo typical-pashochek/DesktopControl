@@ -11,7 +11,7 @@
     # include <windows.h>
     # include <QtWin>
     # if defined (_WIN32_WINNT_WIN10)
-    #   include "dxgimanager.h"
+    #   include "../DXGIManager/dxgimanager.h"
     #  endif
 #elif defined(Q_OS_ANDROID)
     #include <GLES3/gl3ext.h>

@@ -1,4 +1,3 @@
-#include "remoteevent.h"
 #include "socket.h"
 
 Socket::Socket(QObject *parent)

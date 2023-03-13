@@ -1,5 +1,4 @@
 #include "protocol.h"
-#include "remoteevent.h"
 
 QDataStream& operator>>(QDataStream &in, BlockHeader &header)
 {

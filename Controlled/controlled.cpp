@@ -1,7 +1,4 @@
 #include "controlled.h"
-#include "remoteevent.h"
-#include "systemapi.h"
-#include "socket.h"
 
 #include <QBuffer>
 #include <QGuiApplication>

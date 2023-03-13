@@ -1,8 +1,5 @@
 #include "controller.h"
 
-#include "networkapi.h"
-#include "socket.h"
-
 #include <QGuiApplication>
 #include <QHostAddress>
 #include <QThread>

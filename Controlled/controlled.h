@@ -1,7 +1,11 @@
 #ifndef CONTROLLED_H
 #define CONTROLLED_H
 
-#include "protocol.h"
+#include "../Protocol/protocol.h"
+#include "../RemoteEvent/remoteevent.h"
+#include "../SystemApi/systemapi.h"
+#include "../Socket/socket.h"
+
 #include <QObject>
 #include <QTcpServer>
 #include <QTimer>

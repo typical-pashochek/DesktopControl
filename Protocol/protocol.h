@@ -1,6 +1,8 @@
 #ifndef PROTOCOL_H
 #define PROTOCOL_H
 
+#include "../RemoteEvent/remoteevent.h"
+
 #include <QDebug>
 #include <QtGlobal>
 #include <QDataStream>

@@ -2,7 +2,9 @@
 #define SOCKET_H
 
 
-#include "protocol.h"
+#include "../Protocol/protocol.h"
+#include "../RemoteEvent/remoteevent.h"
+
 #include <QTcpSocket>
 
 class RemoteEvent;
